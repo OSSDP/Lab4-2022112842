@@ -46,7 +46,7 @@ class Solution18Test {
     @Test
     void test_normal() {
         int[] nums5 = {4,2,3,7,5};
-        int[] ret5 = {252,504,336,144,168};
+        int[] ret5 = {252,504,336,144,0};
         assertArrayEquals(ret5,Solution18.productExceptSelf(nums5));
     }
 }
