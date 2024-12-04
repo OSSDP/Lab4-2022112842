@@ -26,6 +26,7 @@
       <artifactId>junit-jupiter</artifactId>
       <version>RELEASE</version>
       <scope>test</scope>
+      90
     </dependency>
   </dependencies>
 </project>

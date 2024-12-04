@@ -13,7 +13,7 @@ class Solution18Test {
     @Test
     void test_single() {
         int[] nums1 = {9};
-        int[] ret1 = {10};
+        int[] ret1 = {1};
         assertArrayEquals(ret1,Solution18.productExceptSelf(nums1));
     }
 
@@ -21,7 +21,7 @@ class Solution18Test {
     @Test
     void test_long() {
         int[] nums2 = {2,5,7,9,8,4,6,7,2,3,4,5};
-        int[] ret2 = {150803200,20321280,14515200,11289600,12700800,25401600,
+        int[] ret2 = {50803200,20321280,14515200,11289600,12700800,25401600,
                 16934400,14515200,50803200,33868800,25401600,20321280};
         assertArrayEquals(ret2,Solution18.productExceptSelf(nums2));
     }
@@ -30,7 +30,7 @@ class Solution18Test {
     @Test
     void test_zero() {
         int[] nums3 = {1,0,2,4};
-        int[] ret3 = {10,8,0,0};
+        int[] ret3 = {0,8,0,0};
         assertArrayEquals(ret3, Solution18.productExceptSelf(nums3));
     }
 
@@ -38,15 +38,15 @@ class Solution18Test {
     @Test
     void test_negative() {
         int[] num4 = {4,-6,-2,-1,3};
-        int[] ret4 = {-136,24,72,144,-48};
+        int[] ret4 = {-36,24,72,144,-48};
         assertArrayEquals(ret4,Solution18.productExceptSelf(num4));
     }
 
     //测试最普通的情况
     @Test
     void test_normal() {
-        int[] nums5 = {4,2,3,7,5};
-        int[] ret5 = {252,504,336,144,0};
+        int[] nums5 = {4,2,3,7,6};
+        int[] ret5 = {252,504,336,144,168};
         assertArrayEquals(ret5,Solution18.productExceptSelf(nums5));
     }
 }
