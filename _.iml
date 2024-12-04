@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
   <component name="AdditionalModuleElements">
-    <content url="file://$MODULE_DIR$/_maven" dumb="true">
-      <sourceFolder url="file://$MODULE_DIR$/_maven/src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/_maven/src/test" isTestSource="true" />
+    <content url="file://$MODULE_DIR$/maven" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/maven/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/maven/src/test" isTestSource="true" />
     </content>
   </component>
 </module>
