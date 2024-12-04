@@ -17,4 +17,4 @@ jobs:
          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
          restore-keys: ${{ runner.os }}-m2
       - name: Run tests with Maven
-        run: mvn -B test --file /Lab4-2022112842/maven/pom.xml
+        run: mvn -B test --file maven/pom.xml
