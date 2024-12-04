@@ -45,7 +45,7 @@ class Solution18Test {
     //测试最普通的情况
     @Test
     void test_normal() {
-        int[] nums5 = {4,2,3,7,6};
+        int[] nums5 = {4,2,3,7,5};
         int[] ret5 = {252,504,336,144,168};
         assertArrayEquals(ret5,Solution18.productExceptSelf(nums5));
     }
